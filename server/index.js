@@ -7,7 +7,7 @@ const server = http.createServer((req, res)=>{
     const {url} = req;
     console.log('request', url);
 
-    const fileName = url === '/' ? 'index.html' : url;
+    const fileName = url === '/' ? 'src/template/index.html' : url;
 
     fs.readFile(`${__dirname}/../${fileName}`, (err, file) =>{
         if (err){
