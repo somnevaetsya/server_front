@@ -99,7 +99,7 @@
 }
 
 .auth__block_dont {
-    color: var(--gray-menu);
+    color: var(--gray-text);
 }
 
 .auth__block_reg {
